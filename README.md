@@ -1,6 +1,6 @@
 # EXPEDIENTE SECRETO
 
-![Logo de Expediente Secreto](img/1.jpg)
+![Logo de Expediente Secreto](img/ytmini.jpg)
 
 Bienvenido a Expediente Secreto, tu portal exclusivo para descubrir lo desconocido para el mundo bajo una perspectiva consciente.
 
