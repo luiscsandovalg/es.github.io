@@ -1,0 +1,58 @@
+.flex-container{
+  display:flex;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 480px) {
+    /* Estilos para dispositivos móviles */
+    .flex-container {   
+      flex-direction: column;
+    }
+    
+    li{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size:xx-small;
+    }
+
+  }
+
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    /* Estilos para tablets en orientación vertical */
+    .flex-container {   
+      flex-direction: column;
+      li{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size:xx-small;
+      }
+    }
+  }
+  
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+       /* Estilos para tablets en orientación horizontal */
+       li {font-size:smaller;
+        font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;}
+       }
+    
+
+@media only screen and (min-width: 1025px) {
+        /* Estilos para pantallas de escritorio y laptops */
+        li{
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          
+        }
+ }
+
+
+ @media only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min--moz-device-pixel-ratio: 2),
+        only screen and (-o-min-device-pixel-ratio: 2/1),
+        only screen and (min-device-pixel-ratio: 2),
+        only screen and (min-resolution: 192dpi),
+        only screen and (min-resolution: 2dppx)
+ {
+  
+ /* Estilos para pantallas de alta resolución */
+ }
+ 

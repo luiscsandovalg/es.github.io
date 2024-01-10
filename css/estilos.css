@@ -1,0 +1,790 @@
+/*A continuación el menu principal */
+
+  nav {
+    background-color: hsl(241, 95%, 22%);
+    position: relative;
+    box-shadow: 3px 2px darkgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: hsl(0, 82%, 2%);
+    font-size: larger;
+  }
+  
+  li:hover > ul {
+    display: block;
+  }
+  
+  ul.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: hsl(40, 3%, 43%);
+    box-shadow: 0px 8px 16px rgba(173, 171, 171, 0.2);
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  ul.dropdown-menu li {
+    display: block;
+  }
+  
+  ul.dropdown-menu li a {
+    padding: 10px;
+    color: hsl(0, 3%, 81%);
+  }
+  
+  ul.dropdown-menu li a:hover {
+    background-color: #575656;
+    color: #8d8989;
+  }
+
+
+
+/*A continuación la fuente y el formato del body todos los enlaces deberan ser llamados */
+body{
+    background: hsla(240, 1%, 75%, 0.295);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(37, 37, 37);
+    margin: 0 auto;
+}
+
+/*A continuación la cabecera */
+    header {
+      background-color: #7c7a7a;
+       }
+
+    h1 {
+      color:white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: left;
+    }
+    img {
+     width: 100%;
+     height: 200px;
+     margin-top: 10px;
+    }
+
+/*A continuación la lista desplegable del menu principal */
+    nav ul {
+      list-style-type: none;   
+      margin: 0;
+      padding: 0;
+      }
+      
+      nav ul li { 
+      display: inline-block;
+     position: relative;
+      }
+      
+      nav ul li a {
+        display: block;
+        padding: 10px 20px;
+       text-decoration: none;
+      color: #2c2c2c;
+      }
+      
+      nav ul li:hover > a {
+      background-color: #423c3c;
+      }
+      
+      .dropdown-menu {
+      display: none;
+      position: absolute;
+      background-color: hsl(36, 88%, 44%);
+      padding: 5px;
+      list-style-type: none;
+      }
+      
+      .dropdown:hover .dropdown-menu {
+        display:block;
+      }
+
+
+      /*A continuación la lista desplegable 1 del menu principal */
+    nav ul {
+      list-style-type: none;   
+      margin: 0;
+      padding: 0;
+      }
+      
+      nav ul li { 
+      display: inline-block;
+     position: relative;
+      }
+      
+      nav ul li a {
+        display: block;
+        padding: 10px 20px;
+       text-decoration: none;
+      color: #333;
+      }
+      
+      nav ul li:hover > a {
+      background-color: #423c3c;
+      color: white;
+      }
+      
+      .dropdown-menu1 {
+      display: none;
+      position: absolute;
+      background-color: hsl(36, 88%, 44%);
+      padding: 5px;
+      list-style-type: none;
+      }
+      
+      .dropdown1:hover .dropdown-menu1 {
+        display: block;
+        
+      }
+      
+
+
+      /* Estilos para el texto de la barra de navegación */
+.navbar a,
+nav ul li a {
+    color: #a19e9e; /* Color gris claro para el texto */
+}
+
+/* Estilos para el texto de la lista desplegable */
+.dropdown-menu li a,
+.dropdown-menu1 li a {
+    color: #fff; /* Color blanco para el texto */
+}
+
+
+
+/*A continuación el formulario con css   
+  .dpcss{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: rgb(5, 5, 95);
+
+  }
+
+  form {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #ece2e2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  textarea{
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #13055f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #050796;
+  }
+  */
+
+/*A continuación el boton regresar debajo del formulario envianos un msj*/  
+.botonregresarmsj{
+    margin: 5px  auto;
+    display:block;
+    padding: 15px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #272323;
+    background-color: orange;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 8px #838181;
+    width: 15%;
+  }
+  
+  .botonregresarmsj:hover {background-color:rgba(255, 166, 0, 0.74) 
+  }
+  
+  .botonregresarmsj:active {
+    background-color: rgba;
+    box-shadow: 0 5px #525050;
+    transform: translateY(4px);
+  }
+
+/*stilos del video en un frame */
+  .frame-container {
+    position:relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+     /* Relación de aspecto 16:9 (dividir el alto por el ancho y multiplicar por 100) */
+  }
+
+  .frame-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45%;
+    height: 45%;
+  }
+
+/* formato del contenedor principal */
+.container {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  align-items:stretch; /* Alinea las columnasa lo largo del contenedor */
+  
+}
+  
+   /* División del contenedor principal en 3 columnas */
+   .column {
+    float: left;
+    padding: 10px;
+    height: 300px; /* Ajusta la altura*/
+    box-sizing: border-box;
+    border: 2px solid #a3a2a5;
+    border-radius: 5px;
+  }
+  
+  .left-column {
+    width: 20%;
+    height:auto;
+    background-color: #bababd;
+    
+  }
+  
+  .middle-column {
+    width: 60%;
+    height: auto;
+    background-color: #e1e1e4;
+    color: #13055f;
+  }
+    
+  .right-column {
+    width: 20%;
+    height: auto;
+    background-color: #bababd;
+  }
+
+  .clearfix {
+    clear: both;
+  }
+  
+  .row:after {  
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* agregar video en la fan page */
+  .video-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+.video-container video {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(39, 5, 119, 0.3);  
+    
+}
+  .video-container2 video {
+    max-width: 800px;
+    width: 300px; 
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(29, 8, 214, 0.3);  
+    
+  }
+
+.video-containerc3 {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(39, 5, 119, 0.3);  
+}
+
+.video-containerc3 img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(39, 5, 119, 0.3);  
+}
+
+/* Enlaces en la columna 1 */
+.recommended-link {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #3498db; /* Color del borde */
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+.recommended-link2 {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #eb0c04; /* Color del borde */
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+.recommended-link3 {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #0157d8; /* Color del borde */
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+.recommended-link4 {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #ad01d8; /* Color del borde */
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+.recommended-link5 {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #04631c; /* Color del borde */
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+.recommended-link6 {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #04025a; /* Color del borde */
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.recommended-link img {
+  max-width: 150px; /* Ancho máximo del icono */
+  max-height: 100px; /* Altura máxima del icono */
+  display: block;
+  margin: 0 auto;
+}
+.recommended-link2 img {
+  max-width: 150px; /* Ancho máximo del icono */
+  max-height: 100px; /* Altura máxima del icono */
+  display: block;
+  margin: 0 auto;
+}
+.recommended-link3 img {
+  max-width: 150px; /* Ancho máximo del icono */
+  max-height: 100px; /* Altura máxima del icono */
+  display: block;
+  margin: 0 auto;
+}
+.recommended-link4 img {
+  max-width: 110px; /* Ancho máximo del icono */
+  max-height: 100px; /* Altura máxima del icono */
+  display: block;
+  margin: 0 auto;
+}
+.recommended-link5 img {
+  max-width: 150px; /* Ancho máximo del icono */
+  max-height: 100px; /* Altura máxima del icono */
+  display: block;
+  margin: 0 auto;
+}
+.recommended-link6 img {
+  max-width: 150px; /* Ancho máximo del icono */
+  max-height: 100px; /* Altura máxima del icono */
+  display: block;
+  margin: 0 auto;
+}
+
+.recommended-link:hover {
+  background-color: #3498db; /* Color de fondo al pasar el mouse */
+  color: #fff; /* Color del texto al pasar el mouse */
+}
+.recommended-link2:hover {
+  background-color: #920404; /* Color de fondo al pasar el mouse */
+  color: #fff; /* Color del texto al pasar el mouse */
+}
+.recommended-link3:hover {
+  background-color: #0377e2; /* Color de fondo al pasar el mouse */
+  color: #fff; /* Color del texto al pasar el mouse */
+}
+.recommended-link4:hover {
+  background-color: #3e0361; /* Color de fondo al pasar el mouse */
+  color: #fff; /* Color del texto al pasar el mouse */
+}
+.recommended-link5:hover {
+  background-color: #08bdca; /* Color de fondo al pasar el mouse */
+  color: #fff; /* Color del texto al pasar el mouse */
+}
+
+.recommended-link6:hover {
+  background-color: #06299c; /* Color de fondo al pasar el mouse */
+  color: #fff; /* Color del texto al pasar el mouse */
+}
+
+/* imagen en la columna central */
+.image-container {
+  text-align: left;
+  border: 2px solid #ddd; /* Ajusta el color y ancho del borde */
+  border-radius: 10px; /* Ajusta el radio del borde para redondear las esquinas */
+  padding: 10px; /* Añade un relleno alrededor de la imagen */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Añade una sombra al contenedor de la imagen */
+  margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+.image-container img {
+  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
+  height: auto; /* Ajusta la altura de la imagen de forma automática para mantener la proporción */
+}
+
+/* imagen en la columna central */
+.image-container2 {
+  text-align: left;
+  border: 2px solid #ddd; /* Ajusta el color y ancho del borde */
+  border-radius: 10px; /* Ajusta el radio del borde para redondear las esquinas */
+  padding: 10px; /* Añade un relleno alrededor de la imagen */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Añade una sombra al contenedor de la imagen */
+  margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+.image-container2 img {
+  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
+  height: auto; /* Ajusta la altura de la imagen de forma automática para mantener la proporción */
+}
+
+
+  /* footer */
+
+  .footer-style {
+    padding: 30px 0;
+    background: linear-gradient(45deg, #0d026b, #161616, #171718, #170264);
+    color: #d4d4d4;
+    font-family: 'Raleway', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    }
+
+footer h3 {
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.footer-col {
+    margin-bottom: 50px;
+}
+
+.social-icons .btn-social {
+  margin-right: 10px;
+  background-color: #696565;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.social-icons .btn-social img {
+  width: 200%;
+  height: 200%;
+  border-radius: 50%;
+}
+
+.social-icons .btn-social:hover {
+    background-color: #e0dbdb;
+    color: #fff;
+}
+
+
+
+/* pradiales formato del listado */
+.download-list {
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.download-list-item {
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.download-link {
+  text-decoration: none;
+  color: #3498db;
+}
+
+.download-link:hover {
+  color: #2980b9;
+} 
+
+.pyoutube {
+  width: 100%;
+  height: auto;
+  background-color: #e1e1e4;
+  color: #13055f;
+}
+
+.video-containeract video {
+  max-width: 800px;
+  width: 300px; 
+  margin: 0 auto;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(29, 8, 214, 0.3);  
+  
+}
+
+   /* Estilos para la ventana emergente */
+   #floating-window {
+    display: none;
+    position: fixed;
+    width: 400px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;  
+    border: 1px solid black;
+    z-index: 1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los enlaces */
+/* Estilos para el contenedor principal */
+.containera {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+/* Estilos para cada enlace */
+.image-containera {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 30%;
+  margin: 10px;
+}
+
+.image-containera:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.image-containera img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Estilos para el boton ir arriba */
+.ir-arriba {
+	display:none;
+	padding:20px;
+	background:#024959;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+  z-index: 999; /* asegurar que el botón esté por encima de otros elementos */
+}
+.ir-arriba:hover {
+  background: #037e8c;
+}
+
+/* Estilos para el archivo desclasificado papa */
+.containerpapa {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(45deg, #54535c, #f3eded, #373738, #e9e9ee);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.text-containerpapa {
+  flex: 2;
+}
+
+.text-containerpapa h2 {
+  font-size: 20px;
+  color: #181717;
+  animation: move 2s linear infinite;
+}
+
+@keyframes move {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(5px); }
+  100% { transform: translateX(0); }
+}
+
+.image-containerpapa {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image-containerpapa img {
+  width: 80px;
+  height: auto;
+  box-shadow: 2px 2px 5px #888888;
+}
+
+
+/* Estilos para el texto con efecto de tamaño y lista al pasar el ratón */
+   
+#lista-tamano {
+  list-style: none;
+  padding: 0;
+}
+
+#lista-tamano li {
+  transition: font-size 0.5s;
+  margin-bottom: 10px; /* Espacio entre ítems de la lista */
+}
+
+#lista-tamano li:hover {
+  font-size: 1.2em; /* Ajusta el tamaño de la letra al pasar el mouse */
+}
+
+.lista-simbolo::before {
+  content: "\2022"; /* Código Unicode del símbolo (punto) */
+  color: #007BFF; /* Color del símbolo */
+  margin-right: 5px; /* Espacio entre el símbolo y el texto */
+}
+
+
+
+/* A continuación el formulario con css */
+.dpcss {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: rgb(5, 5, 95);
+}
+
+form {
+  max-width: 500px;
+  margin: 50px auto;
+  background-color: #ece2e2;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #13055f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+button[type="submit"]:hover {
+  background-color: #050796;
+}

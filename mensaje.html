@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expediente Secreto</title>
+  <link rel="icon" href="img/ytminiii.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  <link rel="stylesheet" type="text/css" href="css/mediaq.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+  <header>
+    <!--<h1>EXPEDIENTE SECRETO</h1>--> 
+    <img src="img/g7O06E4yd1l5ly5w21XzM1597637040.png" alt="Imagen_cabecera">
+  </header>
+
+
+  <body class=".bodyenvmsj">
+
+    <!--a continuacion mi barra de navegacion principal-->
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li class="dropdown">
+          <a href="#">Parrilla de Programas &#9662;</a>
+          <ul class="dropdown-menu">
+            <li><a href="pradiales.html">Radiales</a></li>
+            <li><a href="pyoutube.html">En Youtube</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Secciones &#9662;</a>
+          <ul class="dropdown-menu">
+            <li><a href="actpar.html">Actualidad Paranormal</a></li>
+            <li><a href="archivo.html">Archivo Desclasificado</a></li>
+            <li><a href="mensajep.html">El Mensaje de la paloma</a></li>
+          </ul>
+        </li>
+        <li><a href="quienes.html">Quiénes somos</a></li>
+        <li><a href="#">Envíanos tu Mensaje</a></li>
+      </ul>
+    </nav>
+
+
+  <!--CReación de los elementos del formulario
+     <form>
+
+        <fieldset class="dpcss">
+            <legend>Datos Personales</legend>
+
+            <div class="form-group">
+              <label for="nombre">Nombre completo:</label>
+              <input type="text" id="nombre" name="nombre" required>
+            </div>
+            
+            <div class="form-group">
+                 <label for="email">Email:</label>
+                 <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+              <label for="telefono">Whatsapp:</label>
+              <input type="tel" id="telefono" name="telefono" required>
+            </div>
+
+            <div class="form-group">          
+              <label for="ciudad">Ciudad:</label>
+              <input type="text" id="ciudad" name="ciudad" required>
+            </div>
+           
+            <div class="form-group">
+              <label for="mensaje">Envíanos tu mensaje o experiencia:</label>
+              <textarea type="mensaje" id="mensaje" name="mensaje" required></textarea>
+            </div>
+           
+            <button type="submit">Enviar</button>
+        </fieldset>
+      
+    </form>-->
+
+    <div class="containerform">
+      <h1>Formulario de Contacto</h1>
+
+      <form action="enviar_email.php" method="post">
+          <label for="nombre">Nombre Completo:</label>
+          <input type="text" id="nombre" name="nombre" required>
+
+          <label for="telefono">Número de WhatsApp:</label>
+          <input type="tel" id="telefono" name="telefono" required>
+
+          <label for="ciudad">Ciudad:</label>
+          <input type="text" id="ciudad" name="ciudad" required>
+
+          <label for="email">Correo Electrónico:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+          <button type="submit">Enviar</button>
+      </form>
+  </div>
+
+
+
+
+    <a href="index.html" class="botonregresarmsj">Ir a Pagina Principal</a>
+
+</body>
+</html>
